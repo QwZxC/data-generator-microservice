@@ -1,4 +1,4 @@
-package com.example.datageneratormicroservice.model.test;
+package com.example.datageneratormicroservice.web.dto;
 
 import com.example.datageneratormicroservice.model.Data;
 import lombok.Getter;
@@ -8,9 +8,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class DataTestOptions {
+public class DataTestOptionsDto {
 
     private Integer delayInSeconds;
     private Data.MeasurementType[] measurementTypes;
-    
+
 }

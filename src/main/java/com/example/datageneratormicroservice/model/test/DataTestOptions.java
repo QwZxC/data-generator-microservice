@@ -1,4 +1,16 @@
 package com.example.datageneratormicroservice.model.test;
 
-public class DataTestOption {
+import com.example.datageneratormicroservice.model.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@Getter
+@Setter
+public class DataTestOptions {
+
+    private Integer delayInSeconds;
+    private Data.MeasurementType[] measurementTypes;
+
 }
